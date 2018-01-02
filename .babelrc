@@ -4,11 +4,11 @@
         "stage-0",
     ],
     "plugins": [
-        "transform-runtime"
-    ],
+        ["lodash"],
+	],
     "env": {
         "development": {
             "sourceMaps" : "inline",
-        },
+        }
     }
 }
